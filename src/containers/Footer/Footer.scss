@@ -1,0 +1,341 @@
+@use '../../variables' as v;
+
+.footer {
+    color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: rgb(24, 104, 183);
+
+    .footer__container{
+        width: 85%;
+
+        @media (min-width: v.$breakpoint-tablet){
+            width: 82.5%;
+        }
+
+        .footer__row{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(229, 232, 235, 0.25);
+
+            .footer__column{
+                display: flex;
+                flex-direction: column;
+                padding-top: 20px;
+                padding-left: 0px;
+
+
+                .footer__section-header{
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                    margin-top: 8px;
+                }
+
+                .footer__text{
+                    font-size: 16px;
+                    color: rgb(251, 253, 255);
+                }
+
+
+                .footer__social-container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+
+                    .footer__social-link{
+                        cursor: pointer;
+                        color: rgb(32, 129, 226);
+                        text-decoration: none;
+
+                        .footer__social-button{
+                            margin-right: 12px;
+                            width: 54px;
+                            height: 54px;
+                            margin-top: 8px;
+
+                            display: inline-flex;
+                            flex-direction: row;
+                            -webkit-box-align: center;
+                            align-items: center;
+                            border-radius: 12px;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 22px;
+                            letter-spacing: 0.01em;
+                            padding: 17px 24px;
+                            background-color: rgb(32, 129, 226);
+                            border: 2px solid rgb(32, 129, 226);
+                            color: rgb(255, 255, 255);
+                            cursor: pointer;
+                            
+                            div{
+                                display: flex;
+
+                                .social-icon{
+                                    height: 20px;
+                                    width: 30px;
+                                }
+                            }
+                        }
+                        .footer__social-button:hover{
+                            filter: brightness(1.1);
+                            border: 1px solid rgba(0, 0, 0, 0);
+                            background-color: rgb(32, 129, 226);
+                        }
+                    }
+                }
+            }
+
+
+            .footer__half{
+                width: 100%;
+                -webkit-box-align: center;
+                align-items: center;
+                text-align: center;
+                
+
+                @media (min-width: v.$breakpoint-lg-desktop){
+                    width: 50%;
+                    padding-top: 40px;
+                    align-items: flex-start;
+                    text-align: left;
+                }
+
+
+
+                form{
+                    width: 100%;
+                    margin-top: 16px;
+                    color: rgb(53, 56, 64);
+
+                    .mailingSignupForm__input-container{
+                        width: 100%;
+                        display: flex;
+
+                        .mailingSignupForm__input-main {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            padding-right: 8px;
+
+                            .mailingSignupForm__input {
+                                min-width: 50px;
+                                width: 100%;
+                                height: 48px;
+                                display: flex;
+                                align-items: center;
+                                background: rgb(255, 255, 255);
+                                cursor: text;
+                                -webkit-box-align: center;
+                                border-radius: 12px;
+                                border: 2px solid rgb(229, 232, 235);
+                                color: rgb(4, 17, 29);
+                                padding: 12px;
+                                font-size: 16px;
+                            }
+                        }
+
+
+                        .mailingSignupForm__button{
+                            white-space: nowrap;
+
+                            margin: 0px 8px 8px;
+                            height: 50px;
+                            width: 162px;
+
+                            display: inline-flex;
+                            flex-direction: row;
+                            -webkit-box-align: center;
+                            align-items: center;
+                            border-radius: 12px;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 22px;
+                            letter-spacing: 0.01em;
+                            padding: 17px 24px;
+                            background-color: rgb(32, 129, 226);
+                            border: 2px solid rgb(32, 129, 226);
+                            color: rgb(255, 255, 255);
+                            cursor: pointer;
+                        }
+                        .mailingSignupForm__button:hover{
+                            filter: brightness(1.1);
+                            background-color: rgb(32, 129, 226);
+                        }
+                    }
+                }
+            }
+
+            .footer__half:first-of-type{
+                @media (min-width: v.$breakpoint-lg-desktop){
+                    padding-right: 64px;
+                }
+            }
+            .footer__half:last-of-type {
+                @media (min-width: v.$breakpoint-lg-desktop){
+                    padding-left: 64px;
+                }
+            }
+
+
+
+            .footer__quarter{
+                width: 100%;
+                -webkit-box-align: center;
+                align-items: center;
+                text-align: center;
+
+                @media (min-width: v.$breakpoint-desktop){
+                    width: 25%;
+                    padding-top: 40px;
+                    align-items: flex-start;
+                    text-align: left;
+                }
+            }
+
+
+            .footer__three-quarters {
+                width: 100%;
+                height: fit-content;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding-top: 20px;
+                padding-left: 0px;
+            
+
+                @media (min-width: v.$breakpoint-desktop){
+                    width: 75%;
+                    padding-top: 40px;
+                    padding-left: 72px;
+                }
+
+
+                .footer__link-column {
+                    display: flex;
+                    flex-direction: column;
+                    height: 50%;
+                    width: 50%;
+                    padding-top: 20px;
+                    -webkit-box-align: center;
+                    align-items: center;
+
+
+                    @media (min-width: v.$breakpoint-tablet){
+                        width: 20%;
+                        height: 100%;
+                        padding-top: 0;
+                        align-items: flex-start;
+                    }
+
+
+                    .footer__link-header{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: rgb(255, 255, 255);
+                    }
+
+                    .header-top{
+                        margin-top: 48px;
+                    }
+
+
+                    .footer__link-list{
+                        margin-top: 0;
+
+
+                        .footer__link-wrapper{
+                            font-size: 14px;
+                            margin-top: 12px;
+
+                            @media (min-width: v.$breakpoint-tablet){
+                                text-align: initial;
+                            }
+                        }
+                    }
+                }
+
+
+                .footer__link-column:first-of-type{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+
+        .footer__link {
+            color: rgb(251, 253, 255);
+        }.footer__link:hover {
+            font-weight: 500;
+        }
+
+
+
+
+        .footer__bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+            .footer__bottom-section {
+                width: 100%;
+                display: flex;
+                -webkit-box-pack: center;
+                justify-content: center;
+                text-align: center;
+
+                @media (min-width: v.$breakpoint-tablet){
+                    width: 75%;
+                    -webkit-box-pack: start;
+                    justify-content: flex-start;
+                    text-align: initial;
+                }
+
+
+                .footer__link{
+                    margin-top: 0;
+                    font-size: 12px;
+                }
+
+                .footer__link:last-of-type{
+                    margin-left: 1rem;
+                }
+        
+            }
+
+            .footer__bottom-section:last-of-type {
+                
+                @media (max-width: v.$breakpoint-tablet){
+                    margin-top: 2rem;
+                }
+
+                @media (min-width: v.$breakpoint-tablet){
+                    width: 25%;
+                    -webkit-box-pack: end;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}

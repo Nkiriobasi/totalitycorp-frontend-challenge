@@ -35,3 +35,36 @@ html{
   height: 100%;
 }
 
+
+input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1px 2px;
+
+  @media (min-width: v.$breakpoint-mobile){
+      font-size: inherit;
+      line-height: inherit;
+      min-height: inherit;
+  }
+}
+
+
+input[placeholder] {
+  text-overflow: ellipsis;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+span{
+  display: block;
+  width: 44px;
+  height: 44px;
+
+  .openSea-logo{
+    width: 100%;
+    height: 100%;
+  }
+}
+

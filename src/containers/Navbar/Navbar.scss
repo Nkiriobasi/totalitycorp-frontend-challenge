@@ -59,20 +59,6 @@ nav{
                     font-size: 1.25rem;
                     // color: rgb(32, 129, 226);
 
-                    .navbar__icon{
-                        height: 40px;
-                        width: 40px;
-                        position: relative;
-
-                        span{
-                            display: block;
-
-                            img{
-                                width: 100%;
-                                height: 100%;
-                            }
-                        }
-                    }
 
 
                     .navbar__logo-text{
@@ -143,26 +129,6 @@ nav{
                                 color: rgb(138, 147, 155);
                                 font-size: 24px;
 
-                            }
-
-                            
-                            input{
-                                background-color: transparent;
-                                border: none;
-                                outline: none;
-                                width: 100%;
-                                padding: 1px 2px;
-
-                                @media (min-width: v.$breakpoint-mobile){
-                                    font-size: inherit;
-                                    line-height: inherit;
-                                    min-height: inherit;
-                                }
-                            }
-
-                            input[placeholder] {
-                                text-overflow: ellipsis;
-                                font-family: 'Poppins', sans-serif;
                             }
                         }
                     }

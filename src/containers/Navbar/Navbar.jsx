@@ -13,9 +13,9 @@ const Navbar = () => {
           {/*  logo section  */}
           <div className="navbar__logo">
             <a href="/" className='navbar__logo-link'>
-              <div className='navbar__icon'>
+              <div>
                 <span>
-                  <img src={images.openSea} alt="OpenSea Logo" />
+                  <img src={images.openSea} alt="OpenSea Logo" className='openSea-logo' />
                 </span>
               </div>
 
