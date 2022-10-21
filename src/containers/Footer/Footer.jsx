@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className="mailingSignupForm__input-container">
                             <div className="mailingSignupForm__input-main">
                                 <div className="mailingSignupForm__input">
-                                    <input placeholder="Your email address" name="email" value="" />   
+                                    <input placeholder="Your email address" name="email" />   
                                 </div>
                             </div>
                             <button className="mailingSignupForm__button" type='button'>Sign up</button>
