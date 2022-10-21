@@ -2,12 +2,9 @@
 
 
 header{
-    margin-bottom: 24px;
     width: 100%;
 
-    @media (min-width: v.$breakpoint-xl-desktop){
-        margin-bottom: 36px;
-    }
+
 
     .header__text{
         width: inherit;
@@ -17,7 +14,7 @@ header{
             display: inline-block;
             color: rgb(4, 17, 29);
             font-size: v.$text-small;
-            line-height: v.$text-lh-large;
+            line-height: v.$text-lh-medium;
             font-weight: 600;
 
             @media (min-width: v.$breakpoint-desktop){

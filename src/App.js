@@ -1,8 +1,9 @@
-import { BrowseByCategory, Footer } from './containers';
+import { Nft101, BrowseByCategory, Footer } from './containers';
 
 function App() {
   return (
     <div className="App">
+      <Nft101 />
       <BrowseByCategory />
       <Footer />
     </div>

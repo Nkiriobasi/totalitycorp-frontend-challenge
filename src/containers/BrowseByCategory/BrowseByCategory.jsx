@@ -10,7 +10,7 @@ const BrowseByCategory = () => {
         <div className="container">
             <CardHeading text='Browse by category' />
 
-            <div className="category__grid-templates">
+            <div className="section__grid-templates">
                 <div className="grid__templates">
 
                     <div className='grid__template-item'>

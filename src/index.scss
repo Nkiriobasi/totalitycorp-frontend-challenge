@@ -74,3 +74,49 @@ input[placeholder] {
 //   }
 // }
 
+button{
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 12px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  padding: 11px 24px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(229, 232, 235);
+  color: rgb(4, 17, 29);
+  cursor: pointer;
+}
+
+
+.section__grid-templates{
+  margin-bottom: 44px;
+  margin-top: 28px;
+
+  @media (min-width: v.$breakpoint-xl-desktop){
+      margin-bottom: 58px;
+      margin-top: 40px;
+  }
+
+
+  .grid__templates{
+    display: flex;
+    flex-direction: column;
+  
+    .grid__template-item{
+        display: flex;
+        flex-direction: column;
+        column-gap: 2rem;
+  
+        @media (min-width: v.$breakpoint-desktop){
+            flex-direction: row;
+        }
+    }
+  }
+  
+}

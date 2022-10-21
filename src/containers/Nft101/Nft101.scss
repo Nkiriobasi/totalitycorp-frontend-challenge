@@ -1,0 +1,94 @@
+@use '../../variables' as v;
+
+
+.nft__section{
+    width: 100%;
+    height: 100%;
+}
+
+.nft__head-container{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    margin-bottom: 24px;
+    -webkit-box-align: center;
+    align-items: center;
+
+    @media (min-width: v.$breakpoint-xl-desktop){
+        margin-bottom: 36px;
+    }
+
+
+    .head__item{
+        display: flex;
+        flex-direction: column;
+
+        .head-text{
+            padding-top: 8px;
+            color: rgb(4, 17, 29);
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: v.$text-lh-small;
+        }
+
+
+        .head-btn{
+            height: 48px;
+            background-color: inherit;
+        }
+    }
+
+
+    .nft__carousel{
+        // position: relative;
+        width: 100%;
+
+
+        .carousel__btn {
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
+            background-color: rgb(255, 255, 255);
+
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            font-size: 100%;
+            font-family: inherit;
+            border: 0px;
+            background: inherit;
+
+
+            @media (min-width: v.$breakpoint-desktop){
+                padding: 4px;
+            }
+
+            .chevron-left, .chevron-right{
+                font-size: 40px;
+            }
+        }
+        .carousel__btn:hover{
+            box-shadow: rgb(0 0 0 / 25%) 0px 4px 10px;
+        }
+
+
+        .btn-left{
+            left: 6px;
+
+            @media (min-width: v.$breakpoint-lg-desktop){
+                left: -24px;
+            }
+        }
+
+        .btn-right{
+            right: 6px;
+
+            @media (min-width: v.$breakpoint-lg-desktop){
+                right: 24px;
+            }
+        }
+    }
+}
