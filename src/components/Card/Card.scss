@@ -1,0 +1,46 @@
+
+
+section{
+    display: inline-block;
+    width: 100%;
+
+    .carousel__card-main{
+        width: inherit;
+        display: inherit;
+        margin-bottom: 24px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 8%) 0px 4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .carousel__card-img{
+            height: 0px;
+            position: relative;
+            padding-bottom: 56.25%;
+            border-bottom: 1px solid rgb(229, 232, 235);
+            background-color: rgb(229, 232, 235);
+            border-radius: 10px;
+        }
+
+        .carousel__card-content{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+
+            .carousel__card-text{
+                display: flex;
+                height: 2.5rem;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+
+                span{
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    color: rgb(4, 17, 29);
+                }
+            }
+        }
+    }
+}
