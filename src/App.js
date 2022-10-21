@@ -3,7 +3,7 @@ import { Footer, Navbar } from './containers';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <Footer />
     </div>
   );
