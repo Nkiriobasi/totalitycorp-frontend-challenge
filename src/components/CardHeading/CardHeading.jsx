@@ -2,11 +2,11 @@ import React from 'react';
 import './CardHeading.scss';
 
 
-const CardHeading = () => {
+const CardHeading = ({ text }) => {
   return (
     <header>
         <div className="header__text">
-            <span >{}</span>
+            <span >{text}</span>
         </div>
     </header>
   );

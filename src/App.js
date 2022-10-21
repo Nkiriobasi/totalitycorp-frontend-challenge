@@ -1,10 +1,9 @@
-import { Footer, Navbar } from './containers';
+import { BrowseByCategory } from './containers';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Footer />
+      <BrowseByCategory />
     </div>
   );
 }
