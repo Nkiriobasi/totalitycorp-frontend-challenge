@@ -16,9 +16,13 @@ header{
             width: auto;
             display: inline-block;
             color: rgb(4, 17, 29);
-            font-size: v.$text-large;
+            font-size: v.$text-medium;
             line-height: v.$text-lh-large;
             font-weight: 600;
+
+            @media (min-width: v.$breakpoint-desktop){
+                font-size: v.$text-large;
+            }
         }
     }
 }
