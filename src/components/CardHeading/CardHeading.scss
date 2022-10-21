@@ -1,0 +1,24 @@
+@use '../../variables' as v;
+
+
+header{
+    margin-bottom: 24px;
+    width: 100%;
+
+    @media (min-width: v.$breakpoint-xl-desktop){
+        margin-bottom: 36px;
+    }
+
+    .header__text{
+        width: inherit;
+
+        span{
+            width: auto;
+            display: inline-block;
+            color: rgb(4, 17, 29);
+            font-size: v.$text-large;
+            line-height: v.$text-lh-large;
+            font-weight: 600;
+        }
+    }
+}
