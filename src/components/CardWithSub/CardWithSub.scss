@@ -1,0 +1,135 @@
+
+
+.carousel__card{
+    display: inline-block;
+    width: 100%;
+
+    .carousel__card-main{
+        display: inherit;
+        margin-bottom: 24px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 8%) 0px 4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .carousel__card-img{
+            height: 0px;
+            position: relative;
+            padding-bottom: 56.25%;
+            border-bottom: 1px solid rgb(229, 232, 235);
+            background-color: rgb(229, 232, 235);
+            border-radius: 10px;
+
+            span{
+                box-sizing: border-box;
+                display: block;
+                overflow: hidden;
+                width: initial;
+                height: initial;
+                background: none;
+                opacity: 1;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .carousel__card-content{
+            display: flex;
+            margin-top: -26px;
+            padding: 16px;
+            border-radius: 12px;
+            z-index: 99;
+
+            .carousel__card-small-img{
+                width: 78px;
+                height: 78px;
+                border: 4px solid rgb(255, 255, 255);
+                border-radius: 16px;
+                box-shadow: rgb(0 0 0 / 8%) 0px 5px 10px;
+                background-color: rgb(255, 255, 255);
+                position: relative;
+            }
+
+            .carousel__card-content-text{
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+
+                .text-top{
+                    display: flex;
+                    margin-top: 38px;
+                    overflow: hidden;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    justify-content: left;
+
+                    .text-main{
+                        display: block;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        margin: 0px;
+                        padding-left: 16px;
+                        overflow: hidden;
+                        word-break: break-all;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        text-align: left;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        color: rgb(4, 17, 29);
+                    }
+
+                    .verificationIcon-icon-wrap{
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+
+                        .verificationIcon-icon {
+                            display: flex;
+                            font-size: 24px;
+                            margin: 0px 4px;
+                            cursor: pointer;
+
+                            .icon-main{
+                                height: 1.25rem;
+                                width: 1.25rem;
+                                color: rgb(32, 129, 226);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel__card-main:hover{
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        transition: all 0.1s ease 0s;
+    }
+}
