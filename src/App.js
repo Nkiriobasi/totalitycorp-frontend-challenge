@@ -1,8 +1,9 @@
-import { DreamersSpotlight, Nft101, BrowseByCategory, Footer, NewAndNotable } from './containers';
+import { DreamersSpotlight, Nft101, BrowseByCategory, Footer, NewAndNotable, Hero } from './containers';
 
 function App() {
   return (
     <div className="App">
+      <Hero />
       <NewAndNotable />
       <DreamersSpotlight />
       <Nft101 />

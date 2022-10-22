@@ -1,0 +1,32 @@
+@use '../../variables' as v;
+
+.hero{
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: -72px;
+    padding-top: 72px;
+
+
+    @media (min-width: v.$breakpoint-mobile){
+        background-image: url('../../assets/hero-gradient.png');
+    }
+
+
+    .heading-container{
+        margin-bottom: 44px;
+        margin-top: 32px;
+
+        .heading-div{
+            display: flex;
+            text-align: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+
+            .heading-text{
+                font-size: 2.5rem;
+                font-weight: 700;
+                line-height: v.$text-lh-large;
+            }
+        }
+    }
+}
