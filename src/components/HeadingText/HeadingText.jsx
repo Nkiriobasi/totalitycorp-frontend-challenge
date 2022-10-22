@@ -1,8 +1,8 @@
 import React from 'react';
-import './CardHeading.scss';
+import './HeadingText.scss';
 
 
-const CardHeading = ({ text }) => {
+const HeadingText = ({ text }) => {
   return (
     <header>
         <div className="header__text">
@@ -12,4 +12,4 @@ const CardHeading = ({ text }) => {
   );
 }
 
-export default CardHeading;
+export default HeadingText;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './BrowseByCategory.scss';
-import { Card, CardHeading } from '../../components';
+import { Card, HeadingText } from '../../components';
 import { images } from '../../constants'
 
 
@@ -8,7 +8,7 @@ const BrowseByCategory = () => {
   return (
     <section className='category__section'>
         <div className="container">
-            <CardHeading text='Browse by category' />
+            <HeadingText text='Browse by category' />
 
             <div className="section__grid-templates">
                 <div className="grid__templates">

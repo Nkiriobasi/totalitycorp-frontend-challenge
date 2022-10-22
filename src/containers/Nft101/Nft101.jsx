@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nft101.scss';
-import { CardHeading, Card } from '../../components';
+import { HeadingText, Card } from '../../components';
 // import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { images } from '../../constants';
 
@@ -14,7 +14,7 @@ const Nft101 = () => {
             <div>
                 <div className="nft__head-container">
                     <div className="head__item">
-                        <CardHeading text='NFT 101' />
+                        <HeadingText text='NFT 101' />
                         <span className="head-text">Get comfortable with the basics.</span>
                     </div>
 
