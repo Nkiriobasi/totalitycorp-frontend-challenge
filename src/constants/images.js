@@ -9,6 +9,7 @@ import sportsWallpaper from '../assets/sports-wallpaper.webp';
 import tradingCardsWallpaper from '../assets/trading-cards-wallpaper.webp';
 import utilityWallpaper from '../assets/utility-wallpaper.webp';
 import virtualWorldsWallpaper from '../assets/virtual-worlds-wallpaper.webp';
+
 import howToBuy from '../assets/how-to-buy-nft.webp';
 import howToCreate from '../assets/how-to-create-nft.webp';
 import howToSell from '../assets/how-to-sell-nft.webp';
@@ -17,6 +18,19 @@ import whatIsCryptoWallet from '../assets/what-is-crypto-wallet-nft.webp';
 import whatIsMinting from '../assets/what-is-minting-nft.webp';
 import whatIsNft from '../assets/what-is-nft.webp';
 import whoIsOpenseaNft from '../assets/who-is-opensea-nft.webp';
+
+import amazoniaSebastiao from '../assets/amazonia-sebastiao.avif';
+import aotearoaDreaming from '../assets/aotearoa-dreaming.avif';
+import beautyInDreamland from '../assets/beauty-in-dreamland.jpg';
+import cyberBrokers from '../assets/cyberBrokers.avif';
+import dreamByJoshua from '../assets/dream-by-joshua.avif';
+import dreamersByYugal from '../assets/dreamers-by-yugal.avif';
+import genuineUndead from '../assets/genuinw-undead.webp';
+import letsWalk from '../assets/letsWalk.avif';
+import murakamiFlowers from '../assets/murakami-flowers.avif';
+import syntheticDreams from '../assets/synthetic-dreams.avif';
+import tintedDreamsCollection from '../assets/tinted-dreams-collection.avif';
+
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -32,6 +46,7 @@ export default {
     tradingCardsWallpaper,
     utilityWallpaper,
     virtualWorldsWallpaper,
+
     howToBuy,
     howToCreate,
     howToSell,
@@ -39,5 +54,17 @@ export default {
     whatIsCryptoWallet,
     whatIsMinting,
     whatIsNft,
-    whoIsOpenseaNft
+    whoIsOpenseaNft,
+
+    amazoniaSebastiao,
+    aotearoaDreaming,
+    beautyInDreamland,
+    cyberBrokers,
+    dreamByJoshua,
+    dreamersByYugal,
+    genuineUndead,
+    letsWalk,
+    murakamiFlowers,
+    syntheticDreams,
+    tintedDreamsCollection
 }
