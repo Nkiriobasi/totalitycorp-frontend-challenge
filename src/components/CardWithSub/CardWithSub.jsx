@@ -12,7 +12,7 @@ const CardWithSub = ({ text, alt, href, src }) => {
                 </span>
             </div>
 
-            <div className="carousel__card-content">
+            <div className="carousel__card-content content-with-sub">
                 <div className="carousel__card-small-img">
                     <span>
                         <img src={src} alt={alt} />

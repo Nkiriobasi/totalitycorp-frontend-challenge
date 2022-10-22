@@ -1,8 +1,9 @@
-import { Nft101, BrowseByCategory, Footer } from './containers';
+import { DreamersSpotlight, Nft101, BrowseByCategory, Footer } from './containers';
 
 function App() {
   return (
     <div className="App">
+      <DreamersSpotlight />
       <Nft101 />
       <BrowseByCategory />
       <Footer />
