@@ -20,7 +20,7 @@ Opensea Clone
     which can be reused in the `containers` folder. the folders/files in the `containers` are named for easy understanding. check it out.
 
 4.  At the time of writing this markdown file, some of the page sections are yet to be incorperated, but hopefully there will be added
-    before this get to you.
+    before this get to the review team.
 
 
    
