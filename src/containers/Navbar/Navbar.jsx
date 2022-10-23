@@ -14,8 +14,8 @@ const Navbar = () => {
           <div className="navbar__logo">
             <a href="/" className='navbar__logo-link'>
               <div>
-                <span>
-                  <img src={images.openSea} alt="OpenSea Logo" className='openSea-logo' />
+                <span className='openSea-logo' >
+                  <img src={images.openSea} alt="OpenSea Logo" />
                 </span>
               </div>
 

@@ -31,6 +31,12 @@ import murakamiFlowers from '../assets/murakami-flowers.avif';
 import syntheticDreams from '../assets/synthetic-dreams.avif';
 import tintedDreamsCollection from '../assets/tinted-dreams-collection.avif';
 
+import aniMkhitaryan from '../assets/aniMkhitaryan.avif';
+import artWorkByOllool from '../assets/artWork-by-ollool.avif';
+import nekoNation from '../assets/nekoNation.avif';
+import sanOrigin from '../assets/sanOrigin.avif';
+import theLadies from '../assets/theLadies.avif';
+
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -66,5 +72,11 @@ export default {
     letsWalk,
     murakamiFlowers,
     syntheticDreams,
-    tintedDreamsCollection
+    tintedDreamsCollection,
+
+    aniMkhitaryan,
+    artWorkByOllool,
+    nekoNation,
+    sanOrigin,
+    theLadies
 }
