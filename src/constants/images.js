@@ -37,6 +37,18 @@ import nekoNation from '../assets/nekoNation.avif';
 import sanOrigin from '../assets/sanOrigin.avif';
 import theLadies from '../assets/theLadies.avif';
 
+import allNftsLight from '../assets/allnfts-light.svg';
+import artLight from '../assets/art-light.svg';
+import collectiblesLight from '../assets/collectibles-light.svg';
+import domainNamesLight from '../assets/domain-names-light.svg';
+import musicLight from  '../assets/music-light.svg';
+import photographyLight from '../assets/photography-category-light.svg';
+import solanaLight from '../assets/solana-light.svg';
+import sportsLight from '../assets/sports-light.svg';
+import tradingCardLight from '../assets/trading-cards-light.svg';
+import utilityLight from '../assets/utility-light.svg';
+import virtualWorldsLight from '../assets/virtual-worlds-light.svg';
+
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -78,5 +90,17 @@ export default {
     artWorkByOllool,
     nekoNation,
     sanOrigin,
-    theLadies
+    theLadies,
+
+    allNftsLight,
+    artLight,
+    collectiblesLight,
+    domainNamesLight,
+    musicLight,
+    photographyLight,
+    solanaLight,
+    sportsLight,
+    tradingCardLight,
+    utilityLight,
+    virtualWorldsLight
 }

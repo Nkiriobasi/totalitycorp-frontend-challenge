@@ -10,7 +10,7 @@ nav{
     box-shadow: rgb(229 232 235 / 0%) 0px 1px 0px 0px;
     z-index: 100;
     transition: top 0.5s var(--transition-curve), background-color 0.2s var(--transition-curve), box-shadow 0.2s var(--transition-curve),color 0.2s var(--transition-curve);
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #fff;
 
 
     .container{
@@ -161,6 +161,7 @@ nav{
                             cursor: pointer;
                             height: 72px;
                             flex-shrink: 0;
+                            position: relative;
     
                             a, button{
                                 width: 100%;
@@ -205,7 +206,6 @@ nav{
                                     background: inherit;
                                 }
                             }
-                            
                         }
                     }
                 }

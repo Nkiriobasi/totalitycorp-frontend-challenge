@@ -44,16 +44,19 @@ const Navbar = () => {
             <div className="ul__flex-item">
               <div className='list__container'>
                 <li className='nav__link-list'>
-                  <a href="/">Explore</a>
+                  <a href="/explore-collections">Explore</a>
                 </li>
+                
                 <li className='nav__link-list'>
-                  <a href="/">Stats</a>
+                  <a href="/rankings">Stats</a>
                 </li>
+                
                 <li className='nav__link-list'>
-                  <a href="/">Resources</a>
+                  <a href="/learn">Resources</a>
                 </li>
+                
                 <li className='nav__link-list'>
-                  <a href="/">Create</a>
+                  <a href="/assets/create">Create</a>
                 </li>
               </div>
             </div>
